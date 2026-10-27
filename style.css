@@ -1,0 +1,36 @@
+.navbar{
+    padding:10px 20px;
+    display:flex;
+    justify-content: space-between;
+    border:solid black;
+    border-radius: 10px;
+    position:sticky
+}
+body{
+    background-color: cyan;
+}
+.nav-link {
+  /* Make the inline link behave like a box */
+  display: inline-block; 
+  
+  /* Add space inside the box around the text */
+  padding: 10px 18px; 
+  
+  /* Create the box outline */
+  border: 1px solid #333333; 
+  
+  /* Optional: Round the corners of the box */
+  border-radius: 4px; 
+  
+  /* Style the text and remove the default underline */
+  color: #222222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #2c3e50;
+  color: #ffffff;
+  border-color: #2c3e50;
+}
